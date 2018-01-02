@@ -18,60 +18,53 @@
                 <thead>
                     <tr>
                         <th>
-
+                            <
+                        </th>
+                        <th colspan="6" style="text-align:center;">
+                            <b>
+                                Januar 2018
+                            </b>
                         </th>
                         <th>
-
-                        </th>
-                        <th>
-
-                        </th>
-                        <th>
-
-                        </th>
-                        <th>
-
-                        </th>
-                        <th>
-
-                        </th>
-                        <th>
-
-                        </th>
-                        <th>
-
+                            >
                         </th>
                     </tr>
                 </thead>
 
                 <tbody>
                 //fill table
-                    <tr>
+                <?php
+                $array = array(1,2,3,4,5);
+                foreach($array as $item){
+                    echo "<tr>
                         <td>
-
+                            $item
                         </td>
                         <td>
-
+ $item
                         </td>
                         <td>
-
+ $item
                         </td>
                         <td>
-
+ $item
                         </td>
                         <td>
-
+ $item
                         </td>
                         <td>
-
+ $item
                         </td>
                         <td>
-
+ $item
                         </td>
                         <td>
-
+ $item
                         </td>
-                    </tr>
+                    </tr>";
+                }
+
+                ?>
                 </tbody>
             </table>
         </div>
